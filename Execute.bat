@@ -1,0 +1,5 @@
+set CLASSPATH=.;bin
+echo %CLASSPATH%
+javac -cp "lib/json-simple-1.1.jar;lib/javax.ws.rs-api-2.1.jar;lib/jersey-client.jar;lib/jersey-common.jar;lib/jersey-container-servlet-core.jar;lib/jersey-container-servlet.jar;lib/jersey-hk2.jar;lib/jersey-media-jaxb.jar;lib/jersey-media-json-binding.jar;lib/jersey-media-sse.jar;lib/jersey-server.jar;lib/javax.annotation-api-1.2.jar;lib/hk2-api-2.5.0-b42.jar;lib/hk2-locator-2.5.0-b42.jar;lib/hk2-utils-2.5.0-b42.jar;lib/javax.inject-1.jar;lib/javax.inject-2.5.0-b42.jar;lib/jsr250-api-1.0.jar;lib/org.osgi.core-4.2.0.jar;lib/osgi-resource-locator-1.0.1.jar;lib/persistence-api-1.0.jar;lib/validation-api-1.1.0.Final.jar;lib/yasson-1.0.jar;lib/aopalliance-repackaged-2.5.0-b42.jar;lib/el-api-2.2.jar;lib/javassist-3.22.0-CR2.jar;lib/javax.json-1.1.jar;lib/javax.json-api-1.1.jar;lib/javax.json.bind-api-1.0.jar;lib/javax.servlet-api-3.0.1.jar;lib/jaxb-api-2.2.7.jar;lib/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar;" src/com/restDemo/Test.java
+java com.restDemo.test
+pause
