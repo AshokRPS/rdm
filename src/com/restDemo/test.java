@@ -23,7 +23,7 @@ public class test {
 
 		WebTarget target = client.target("https://jsonplaceholder.typicode.com/posts/1");
 
-		System.out.println("in the action block");
+		System.out.println("in the action block with changes");
 		System.out.println(
 
 				target.request(MediaType.APPLICATION_JSON).get(String.class));
